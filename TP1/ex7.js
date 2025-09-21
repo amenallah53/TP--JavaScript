@@ -3,6 +3,7 @@
 const notes = [12, 5, 17, 9, 20];
 
 // calcul de la moyenne avec reduce
+// reduce((accumulateur,element) => instruction, valeur_init)
 const moyenne = notes.reduce((acc, note) => acc + note, 0) / notes.length;
 console.log("Moyenne :", moyenne);
 

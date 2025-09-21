@@ -24,9 +24,9 @@ class Etudiant {
 
 // création des instances
 let e1 = new Etudiant("Ali", 15);
-let e2 = new Etudiant("Amenallah", 5);
+let e2 = new Etudiant("Amenallah", 20);
 let e3 = new Etudiant("Ali", 18);
-
+// affichage des moyennes
 console.log(e1.getMention());
 console.log(e2.getMention());
 console.log(e3.getMention());
